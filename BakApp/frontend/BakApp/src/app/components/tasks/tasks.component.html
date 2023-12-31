@@ -1,0 +1,26 @@
+<table class="table">
+    <thead class="table-info">
+        <tr>
+            <td>#</td>
+            <td>Category</td>
+            <td>Task</td>
+            <td>Total Amount of Works</td>
+            <td  class="text-center">Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let task of tasks; index as i">
+            <td>{{ i+1 }}</td>
+            <td>{{ task.task.task_category }}</td>
+            <td>{{ task.task.task_name }}</td>
+            <td>{{ task.total_amount }} {{ task.task.units }}</td>
+
+            <td align="center">
+                <button (click)="onSelectTask(task.task.id)" class="btn btn-success btn-sm">Add Progress</button>
+            </td> 
+        </tr>
+    </tbody>
+    
+</table>
+
+<button (click)="onBackToProjects()" class="btn btn-danger btn-sm back">Back to Projects</button>

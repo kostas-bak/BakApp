@@ -1,0 +1,16 @@
+<div class="card">
+    <p><span class="bak">Bak</span>App.</p>
+    <form [formGroup]="loginForm">
+        <div class="field">
+            <label for="username">Username</label>
+            <input formControlName="username" placeholder="Type Username">
+        </div>
+        <div class="field">
+            <label for="password">Password</label>
+            <input type="password" formControlName="password" placeholder="Type Password">
+        </div>
+        <div class="login">
+            <button (click)="login()">Login</button>
+        </div>
+    </form>
+</div>

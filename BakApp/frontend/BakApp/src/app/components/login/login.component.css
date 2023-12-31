@@ -1,0 +1,59 @@
+.card {
+    margin: 5rem auto;
+    padding: 2rem 1rem 1rem 1rem;
+    border-radius: 12px;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0px 10px 18px 0px rgba(179,164,164,0.75);
+
+}
+
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+label {
+    color: #4d4d4d;
+}
+
+.login {
+    width: 100%;
+    text-align: end;
+    padding-top: 2rem;
+}
+
+button {
+
+    background-color: #6e4cea;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.bak {
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e4cea;
+}

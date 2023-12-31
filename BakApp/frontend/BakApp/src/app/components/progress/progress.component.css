@@ -1,0 +1,16 @@
+form {
+    padding: 2rem;
+}
+
+form>div {
+    padding-top: 1rem;
+}
+
+input {
+    width: 30%
+}
+
+.back {
+    margin-top: 3rem;
+    margin-left: 80%;
+}
